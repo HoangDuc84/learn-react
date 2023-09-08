@@ -65,27 +65,3 @@ const Blog = () => {
   );
 };
 export { Blog };
-
-// import React from 'react'; // Import React
-// import useFetch from '../customize/fetch';
-
-// const Blog = () => {
-//   const { data: DataBlogs, loading, error } = useFetch("https://reqres.in/api/users?page=2", false);
-
-//   return (
-//     <>
-//       {DataBlogs && DataBlogs.data && DataBlogs.data.length > 0 && DataBlogs.data.map((item) => (
-//         <div className="card" style={{ width: '18rem' }} key={item.id}>
-//           <img src={item.avatar} className="card-img-top" alt="User Avatar" />
-//           <div className="card-body">
-//             <h5 className="card-title">{item.first_name} {item.last_name}</h5>
-//             <p className="card-text">Email: {item.email}</p>
-//             <a href="#" className="btn btn-primary">Go somewhere</a>
-//           </div>
-//         </div>
-//       ))}
-//     </>
-//   );
-// };
-
-// export default Blog; // Export the component as the default export
